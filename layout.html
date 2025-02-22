@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Онлайн-калькулятор для выполнения простых операций">
+    <title>Онлайн-калькулятор</title>
+    <link rel="stylesheet" href="./CSS.css">
+    <script src="./Calculator.js" async></script>
+</head>
+<body>
+    <div id="parent">
+        <table cellspacing="5">
+            <tr>
+                <td colspan="4">
+                    <input type="text" id="input" disabled>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button class="button back" id="back">Del</button>
+                </td>
+                <td colspan="2">
+                    <button class="button hist" id="hist">История</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="button seven" id="seven">7</button>
+                </td>
+                <td>
+                    <button class="button eight" id="eight">8</button>
+                </td>
+                <td>
+                    <button class="button nine" id="nine">9</button>
+                </td>
+                <td>
+                    <button class="button delen" id="delen">/</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="button four" id="four">4</button>
+                </td>
+                <td>
+                    <button class="button five" id="five">5</button>
+                </td>
+                <td>
+                    <button class="button six" id="six">6</button>
+                </td>
+                <td>
+                    <button class="button umnozh" id="umnozh">*</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="button one" id="one">1</button>
+                </td>
+                <td>
+                    <button class="button two" id="two">2</button>
+                </td>
+                <td>
+                    <button class="button three" id="three">3</button>
+                </td>
+                <td>
+                    <button class="button minus" id="minus">-</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="button clear" id="clear">AC</button>
+                </td>
+                <td>
+                    <button class="button zero" id="zero">0</button>
+                </td>
+                <td>
+                    <button class="button eq" id="eq">=</button>
+                </td>
+                <td>
+                    <button class="button plus" id="plus">+</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="block">
+        <div id="main">История действий</div>
+        <button class="button close" id="close">x</button>
+    </div>
+</body>
+</html>
